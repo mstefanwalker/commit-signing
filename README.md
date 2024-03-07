@@ -10,6 +10,8 @@ gpg --armor --export <sec>
 git config commit.gpgsign true
 
 git config user.signingkey <sec>
+
+git config user.email <key-email>
 ```
 
 [docs.github.com/signing-commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
